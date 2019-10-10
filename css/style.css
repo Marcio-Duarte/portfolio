@@ -12,34 +12,42 @@ body {
 /* *** Side navbar settings *** */
 
 #side-nav {
+    position: fixed;
     height: 100%;
     width: 12%;
-    position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(203, 187, 255);
-    /* overflow-x: hidden;
-    padding-top: 20px; */
+    box-shadow: -7px 0px 25px /* 0.05px */ black;
+    /* box-shadow: 10px 16px 40px 0.1px black; */
 }
-
 
 #side-nav #div-innavbar {
     width: auto;
-    height: 15%;
-    padding: 5%;
+    height: 25%;
+    padding: 5% 5% 5% 7%;
     display: inline-block;
 }
+
 /* My avatar settings */
+
 #side-nav #img-avatar {
-    width: 80%;
-    height: 120%;
+    width: 95%;
+    height: 78%;
     border-radius: 50%;
-    margin: 8% 0% 0% 7%;
+    margin: 6% 0% 0% 5%;
+}
+
+#side-nav #p-myname {
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Amethysta', serif;
+    color: #2C49E8;
+    font-size: 130%;
+    margin: 8px 0% 0% 6px;
+    padding: 0%;
 }
 
 #side-nav ul {
-    
     padding: 0% 0% 0% 0%;
     margin: 15% 0% 0% 16%;
 }
