@@ -1,0 +1,60 @@
+/* ****** Global elements ****** */
+
+body {
+    background-color: rgb(247, 244, 253);
+}
+
+#div-main-container {
+    font-size: 200%;
+    margin: 0% 3% 0% 15%;
+}
+
+/* *** Side navbar settings *** */
+
+#side-nav {
+    height: 100%;
+    width: 12%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(203, 187, 255);
+    /* overflow-x: hidden;
+    padding-top: 20px; */
+}
+
+
+#side-nav #div-innavbar {
+    width: auto;
+    height: 15%;
+    padding: 5%;
+    display: inline-block;
+}
+/* My avatar settings */
+#side-nav #img-avatar {
+    width: 80%;
+    height: 120%;
+    border-radius: 50%;
+    margin: 8% 0% 0% 7%;
+}
+
+#side-nav ul {
+    
+    padding: 0% 0% 0% 0%;
+    margin: 15% 0% 0% 16%;
+}
+
+#side-nav li {
+    list-style-type: none;
+    text-align: left;
+}
+
+#side-nav a {
+    text-decoration: none;
+    font-size: 180%;
+    color: #000000;
+}
+
+#side-nav a:hover {
+    color: #f1f1f1;
+}
