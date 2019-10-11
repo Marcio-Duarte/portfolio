@@ -133,7 +133,7 @@ body {
 /* Contact section list */
 
 #ul-contacts {
-    margin: 6% 0% 30% 0%;
+    margin: 6% 0% 15% 0%;
     width: 100%;
 }
 
@@ -147,15 +147,14 @@ body {
 }
 
 #ul-contacts li a span {
-    font-size: 46%;
-    
+    font-size: 45%;
 }
-
+/* Contact icons settings */
 #ul-contacts .fa {
     color: rgb(46, 45, 45);
-    font-size: 380%;
+    font-size: 360%;
 }
 
-#ul-contacts .fa:hover{
+#ul-contacts .fa:hover {
     color: rgb(77, 103, 255);
 }
