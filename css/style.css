@@ -75,6 +75,7 @@ body {
 #side-nav li:hover {
     cursor: pointer;
     box-shadow: inset 1px 0px 3px black;
+    color: white;
 }
 
 #side-nav a {
@@ -84,12 +85,28 @@ body {
 }
 
 /* *** Website pages (sections) *** */
+
 .div-page {
     margin: 0% 10% 4% 10%;
-    height: 700px;
+    height: 100%;
 }
 
-#ul-skills li {
+.div-page ul hr {
+    color: rgba(179, 179, 179, 0.3);
+    margin: 1% 0% 0% 0%;
+}
+
+.div-page label {
+    display: inline-block;
+    font-size: 200%;
+    margin: 4% 0% 0% 0%;
+}
+
+#ul-education li span {
+    color: rgb(255, 87, 87);
+}
+
+.div-page li {
     list-style-type: square;
     padding: 1% 0% 0% 0%;
     margin: 0% 0% 0% 2%;
@@ -97,13 +114,48 @@ body {
     color: rgb(27, 43, 43);
 }
 
-#ul-skills label {
-    display: inline-block;
-    font-size: 200%;
-    margin: 4% 0% 0% 0%;
+/* Experience section settings */
+
+#ul-experience p {
+    letter-spacing: 0.8px;
+    line-height: 140%;
 }
 
-#ul-skills hr {
-    color: rgba(179, 179, 179, 0.3);
-    margin: 1% 0% 0% 0%;
+.lbl-company {
+    float: right;
+    color: rgb(49, 80, 255);
+}
+
+.lbl-title {
+    color: darkslategray;
+}
+
+/* Contact section list */
+
+#ul-contacts {
+    margin: 6% 0% 30% 0%;
+    width: 100%;
+}
+
+#ul-contacts li {
+    padding: 2% 0% 2% 0%;
+    list-style-type: none;
+}
+
+#ul-contacts a {
+    text-decoration: none;
+}
+
+#ul-contacts li a span {
+    font-size: 46%;
+    
+}
+
+#ul-contacts .fa {
+    color: rgb(46, 45, 45);
+    font-size: 380%;
+}
+
+#ul-contacts .fa:hover{
+    color: rgb(77, 103, 255);
 }

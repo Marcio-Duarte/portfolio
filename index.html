@@ -8,10 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Marcio Duarte</title>
     <link href="https://fonts.googleapis.com/css?family=Amethysta&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- Side Navbar -->
     <nav id="side-nav">
         <div id="div-innavbar">
             <img id="img-avatar" src="images/my_photo.jpg" alt="Picture not found!">
@@ -22,22 +24,27 @@
             <a href="#about">
                 <li>About</li>
             </a>
-            <a href="#skills">
-                <li>Skills</li>
+            <a href="#experience">
+                <li>Experience</li>
             </a>
             <a href="#education">
                 <li>Education</li>
+            </a>
+            <a href="#skills">
+                <li>Skills</li>
             </a>
             <a href="#contact">
                 <li>Contact</li>
             </a>
         </ul>
     </nav>
+    <!-- Side Navbar end -->
 
+    <!-- All website is displayed over this container -->
     <div id="div-main-container">
 
+        <!-- Section about me -->
         <h2 id="about">About</h2>
-
         <div class="div-page">
 
             <p>This sidebar is of full height (100%) and always shown.</p>
@@ -61,25 +68,98 @@
                 Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
 
-        <h2 id="skills">Skills</h2>
-
+        <!-- Section about my experience -->
+        <h2 id="experience">Experience</h2>
         <div class="div-page">
 
+            <ul id="ul-experience">
+                <label class="lbl-company" for="">Elevar Global, Lda</label>
+                <label class="lbl-title" for="">IT Technician</label>
+                <hr>
+                <li>Start date: 01/08/2017 end date: 31/12/2017</li>
+                <li>Country - Portugal</li>
+                <li>Daily tasks
+                    <p>
+                        ▪ Installation and administration of Windows and Linux servers <br>
+                        ▪ Virtualization system administration with with VMware, Hyper-V and VirtualBox <br>
+                        ▪ Installation and maintenance of computer networks <br>
+                        ▪ Implementation and testing of backup and recovery solutions (Unitrends, Veeam, Nas) <br>
+                        ▪ IT Support <br>
+                        ▪ Helpdesk
+                    </p>
+                </li>
+                <label class="lbl-company" for="">CPS-Consultores de Informática, Lda</label>
+                <label class="lbl-title" for="">IT Technician</label>
+                <hr>
+                <li>Start date: 10/11/2014 end date: 31/07/2017</li>
+                <li>Country - Portugal</li>
+                <li>Daily tasks
+                    <p>
+                        ▪ Installation and administration of Windows and Linux servers <br>
+                        ▪ Virtualization system administration with VMware <br>
+                        ▪ Installation and maintenance of computer networks <br>
+                        ▪ Implementation and testing of backup and recovery solutions (Veritas, Unitrends, Veeam, Nas)
+                        <br>
+                        ▪ IT Support <br>
+                        ▪ Helpdesk
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Section about my education -->
+        <h2 id="education">Education</h2>
+        <div class="div-page">
+
+            <ul id="ul-education">
+                <label class="lbl-title" for="">DCI Digital Career Institute</label>
+                <hr>
+                <li>Degree - </li>
+                <li>Start date: 10/2019 - expected end date: 2020</li>
+                <li>Field of study - Web Development</li>
+                <li>Country - Germany</li>
+                <label class="lbl-title" for="">Polytechnic of Leiria</label>
+                <hr>
+                <li>Degree - Bachelor's</li>
+                <li>Start date: 09/2012 - end date: 07/2016 <span>(Incomplete)</span></li>
+                <li>Field of study - Information Systems</li>
+                <li>Country - Portugal</li>
+                <label class="lbl-title" for="">Polytechnic of Leiria</label>
+                <hr>
+                <li>Degree - Technological specialization</li>
+                <li>Start date: 09/2010 - end date: 07/2012</li>
+                <li>Field of study - Systems and Network Technology administration </li>
+                <li>Country - Portugal</li>
+                <label class="lbl-title" for="">Professional School of Leiria</label>
+                <hr>
+                <li>Degree - High School/Electrical Technician</li>
+                <li>Start date: 09/1996 - end date: 07/1999</li>
+                <li>Field of study - Electrotechnology</li>
+                <li>Country - Portugal</li>
+            </ul>
+        </div>
+
+        <!-- Section about my skills -->
+        <h2 id="skills">Skills</h2>
+        <div class="div-page">
 
             <ul id="ul-skills">
-                <label for="">Operating systems</label>
+                <label class="lbl-title" for="">Operating systems</label>
                 <hr>
                 <li>Linux System Administration</li>
                 <li>Windows server System Administration</li>
-                <label for="">Programming Languages</label>
+                <label class="lbl-title" for="">Programming Languages</label>
                 <hr>
+                <li>Bash</li>
                 <li>C</li>
                 <li>C#</li>
+                <li>CSS</li>
+                <li>HTML</li>
                 <li>Java</li>
-                <li>Python</li>
+                <li>Javascript</li>
                 <li>Pearl</li>
-                <li>Bash</li>
-                <label for="">Other skills</label>
+                <li>Python</li>
+                <label class="lbl-title" for="">Other skills</label>
                 <hr>
                 <li>Network Administration</li>
                 <li>Virtualization</li>
@@ -89,53 +169,21 @@
             </ul>
         </div>
 
-        <h2 id="education">Education</h2>
-
-        <div class="div-page">
-
-            <p>This sidebar is of full height (100%) and always shown.</p>
-            <p>Scroll down the page to see the result.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, <br>
-                illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. <br>
-                Atqui causae gloriatur ius te, id agam omnis evertitur eum. <br>
-                Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, <br>
-                maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                evertitur
-                eum. <br>
-                Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, <br>
-                maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, <br>
-                id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. <br>
-                Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, <br>
-                illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. <br>
-                Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. <br>
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        </div>
+        <!-- Section about my contacts -->
         <h2 id="contact">Contact</h2>
         <div class="div-page">
-            <p>This sidebar is of full height (100%) and always shown.</p>
-            <p>Scroll down the page to see the result.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, <br>
-                illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. <br>
-                Atqui causae gloriatur ius te, id agam omnis evertitur eum. <br>
-                Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, <br>
-                maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                evertitur
-                eum. <br>
-                Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, <br>
-                maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, <br>
-                id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. <br>
-                Eum no molestiae voluptatibus.</p>
-            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, <br>
-                illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. <br>
-                Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. <br>
-                Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+
+            <ul id="ul-contacts">
+                <li><a class="fa fa-linkedin-square" href="https://linkedin.com/in/marcio-duarte-link" target="_blank">
+                        <span>Linkedin</span> </a></li>
+                <li><a class="fa fa-facebook-square" href="http://facebook.com/marcio.duarte.fac" target="_blank">
+                        <span>Facebook</span> </a></li>
+                <li><a class="fa fa-github" href="https://github.com/Marcio-Duarte" target="_blank">
+                        <span>GitHub</span> </a></li>
+                <li><a class="fa fa-envelope" style="font-size: 350%;" href="mailto:marcio-duarte@hotmail.com">
+                        <span>Email</span> </a></li>
+            </ul>
         </div>
-    </div>
     </div>
 </body>
 
