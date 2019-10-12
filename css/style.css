@@ -1,7 +1,11 @@
 /* ****** Global elements ****** */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: rgb(247, 244, 253);
+    background-color: rgb(255, 255, 255);
     margin: 0%;
 }
 
@@ -10,7 +14,7 @@ body {
 }
 
 #div-main-container h2 {
-    background-color: #84C3E8;
+    background-color: rgb(129, 209, 255);
     padding: 2% 0% 2% 3%;
     margin: 0%;
     box-shadow: 0px 1px 3px black;
@@ -26,10 +30,12 @@ body {
 }
 
 #img-avatar {
-    width: 88%;
-    height: 52%;
+    width: 165px;
+    height: auto;
     border-radius: 50%;
-    margin: 5% 0 0 7%;
+    border: 1px solid rgb(175, 175, 175);
+    box-shadow: 0px 0px 20px black;
+    margin: 10px 0 0 10px;
 }
 
 #side-nav p {
@@ -38,15 +44,16 @@ body {
 }
 
 #p-myname {
-    color: #2C49E8;
+    color: rgb(40, 126, 255);
     font-size: 130%;
-    margin: 8px 0% 0% 6px;
+    margin: 8px 0 0 25px;
 }
 
 #p-career {
-    font-weight: bold;
     color: darkslategray;
-    margin: 2% 0% 0% 5%;
+    margin: 4px 0 0 38px;
+    font-size: 100%;
+    font-weight: bold;
 }
 
 /* *** Side navbar settings *** */
@@ -55,9 +62,7 @@ body {
     position: fixed;
     height: 100%;
     width: 12%;
-    top: 0;
-    left: 0;
-    background-color: rgb(203, 187, 255);
+    background-color: rgb(246, 250, 255);
     box-shadow: -7px 0px 25px black;
 }
 
@@ -75,7 +80,7 @@ body {
 #side-nav li:hover {
     cursor: pointer;
     box-shadow: inset 1px 0px 3px black;
-    color: white;
+    color: rgb(40, 126, 255);
 }
 
 #side-nav a {
@@ -88,7 +93,8 @@ body {
 
 .div-page {
     margin: 0% 10% 4% 10%;
-    height: 100%;
+    height: auto;
+    min-height: 85vh;
 }
 
 .div-page ul hr {
@@ -123,7 +129,7 @@ body {
 
 .lbl-company {
     float: right;
-    color: rgb(49, 80, 255);
+    color: rgb(40, 126, 255);
 }
 
 .lbl-title {
@@ -149,12 +155,14 @@ body {
 #ul-contacts li a span {
     font-size: 45%;
 }
+
 /* Contact icons settings */
+
 #ul-contacts .fa {
     color: rgb(46, 45, 45);
     font-size: 360%;
 }
 
 #ul-contacts .fa:hover {
-    color: rgb(77, 103, 255);
+    color: rgb(40, 126, 255);
 }

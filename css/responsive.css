@@ -1,8 +1,249 @@
-/* @media screen and (max-height: 450px) {
-    #side-nav {
-        padding-top: 15px;
+/* ********** Responsive Webdesign ********** */
+
+/* Browser at 110% */
+
+@media only screen and (max-width: 1780px) {
+    /* Navbar */
+    #img-avatar {
+        width: 151px;
+        margin: 9px 0 0 9px;
+    }
+    #p-myname {
+        font-size: 120%;
+        margin: 7px 0 0 22px;
+    }
+    #p-career {
+        margin: 3px 0 0 35px;
+        font-size: 92%;
     }
     #side-nav a {
-        font-size: 18px;
+        font-size: 130%;
     }
-} */
+    #side-nav li {
+        padding: 11px 0px 11px 20px;
+    }
+}
+
+/* Browser at 120% */
+
+@media only screen and (max-width: 1600px) {
+    /* Navbar */
+    #img-avatar {
+        width: 138px;
+        margin: 7px 0 0 8px;
+    }
+    #p-myname {
+        margin: 6.5px 0 0 20px;
+        font-size: 110%;
+    }
+    #p-career {
+        margin: 3px 0 0 32px;
+        font-size: 85%;
+    }
+    #side-nav a {
+        font-size: 115%;
+    }
+    #side-nav li {
+        padding: 10px 0px 10px 18px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 90%;
+    }
+}
+
+/* Browser at 133% */
+
+@media only screen and (max-width: 1450px) {
+    /* Navbar */
+    #img-avatar {
+        width: 123px;
+        margin: 7px 0 0 8px;
+    }
+    #p-myname {
+        margin: 6px 0 0 18px;
+        font-size: 100%;
+    }
+    #p-career {
+        margin: 3px 0 0 30px;
+        font-size: 76%;
+    }
+    #side-nav a {
+        font-size: 110%;
+    }
+    #side-nav li {
+        padding: 8.5px 0px 8.5px 16px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 82%;
+    }
+}
+
+/* Browser at 150% */
+
+@media only screen and (max-width: 1280px) {
+    /* Navbar */
+    #img-avatar {
+        width: 110px;
+        margin: 6px 0 0 7px;
+    }
+    #p-myname {
+        margin: 5px 0 0 15px;
+        font-size: 90%;
+    }
+    #p-career {
+        margin: 2px 0 0 26px;
+        font-size: 68%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 98%;
+    }
+    #side-nav li {
+        padding: 7px 0px 7px 15px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 74%;
+    }
+}
+
+/* Browser at 170% */
+
+@media only screen and (max-width: 1150px) {
+    /* Navbar */
+    #img-avatar {
+        width: 97px;
+        margin: 5px 0 0 6px;
+    }
+    #p-myname {
+        margin: 4px 0 0 13px;
+        font-size: 80%;
+    }
+    #p-career {
+        margin: 2px 0 0 22px;
+        font-size: 58%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 85%;
+    }
+    #side-nav li {
+        padding: 6px 0px 6px 13px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 65%;
+    }
+}
+
+/* Browser at 200% */
+
+@media only screen and (max-width: 980px) {
+    /* Navbar */
+    #img-avatar {
+        width: 82px;
+        margin: 5px 0 0 6px;
+    }
+    #p-myname {
+        margin: 3px 0 0 11px;
+        font-size: 68%;
+    }
+    #p-career {
+        margin: 2px 0 0 19px;
+        font-size: 50%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 70%;
+    }
+    #side-nav li {
+        padding: 6px 0px 6px 13px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 56%;
+    }
+}
+
+/* Browser at 240% */
+
+@media only screen and (max-width: 800px) {
+    /* Navbar */
+    #img-avatar {
+        width: 68px;
+        margin: 4px 0 0 5px;
+    }
+    #p-myname {
+        margin: 2.5px 0 0 9px;
+        font-size: 56%;
+    }
+    #p-career {
+        margin: 2px 0 0 16px;
+        font-size: 42%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 60%;
+    }
+    #side-nav li {
+        padding: 5px 0px 5px 10px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 48%;
+    }
+}
+
+/* Browser at 300% */
+
+@media only screen and (max-width: 640px) {
+    /* Navbar */
+    #img-avatar {
+        width: 54px;
+        margin: 3px 0 0 4px;
+        box-shadow: 0px 0px 15px black;
+        border: 1px solid rgb(240, 0, 0);
+    }
+    #p-myname {
+        margin: 0.5px 0 0 7px;
+        font-size: 46%;
+    }
+    #p-career {
+        margin: 1.5px 0 0 13px;
+        font-size: 35%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 48%;
+    }
+    #side-nav li {
+        padding: 4px 0px 4px 8px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 40%;
+    }
+}
+
+/* Responsive rules for mobile devices */
+
+@media only screen and (max-device-width: 480px) {
+    #img-avatar {
+        width: 54px;
+        margin: 3px 0 0 4px;
+        box-shadow: 0px 0px 15px black;
+        border: 1px solid rgb(0, 240, 108);
+    }
+}
