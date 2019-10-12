@@ -29,7 +29,7 @@
 @media only screen and (max-width: 1600px) {
     /* Navbar */
     #img-avatar {
-        width: 138px;
+        width: 134px;
         margin: 7px 0 0 8px;
     }
     #p-myname {
@@ -116,7 +116,7 @@
 @media only screen and (max-width: 1150px) {
     /* Navbar */
     #img-avatar {
-        width: 97px;
+        width: 95px;
         margin: 5px 0 0 6px;
     }
     #p-myname {
@@ -147,8 +147,8 @@
 @media only screen and (max-width: 980px) {
     /* Navbar */
     #img-avatar {
-        width: 82px;
-        margin: 5px 0 0 6px;
+        width: 84px;
+        margin: 4.4px 0 0 5px;
     }
     #p-myname {
         margin: 3px 0 0 11px;
@@ -178,8 +178,8 @@
 @media only screen and (max-width: 800px) {
     /* Navbar */
     #img-avatar {
-        width: 68px;
-        margin: 4px 0 0 5px;
+        width: 66px;
+        margin: 3px 0 0 4px;
     }
     #p-myname {
         margin: 2.5px 0 0 9px;
@@ -209,10 +209,9 @@
 @media only screen and (max-width: 640px) {
     /* Navbar */
     #img-avatar {
-        width: 54px;
-        margin: 3px 0 0 4px;
+        width: 55px;
+        margin: 2px 0 0 3px;
         box-shadow: 0px 0px 15px black;
-        border: 1px solid rgb(240, 0, 0);
     }
     #p-myname {
         margin: 0.5px 0 0 7px;
@@ -234,6 +233,71 @@
     /* Resizing of all text in the main the div container */
     #div-main-container {
         font-size: 40%;
+    }
+}
+
+
+
+/* Browser at 400% */
+
+@media only screen and (max-width: 480px) {
+    /* Navbar */
+    #img-avatar {
+        width: 40.4px;
+        margin: 2px 0 0 3px;
+        box-shadow: 0px 0px 15px black;
+    }
+    #p-myname {
+        margin: -1px 0 0 5px;
+        font-size: 35%;
+    }
+    #p-career {
+        margin: 1px 0 0 9.6px;
+        font-size: 27%;
+    }
+    #side-nav ul {
+        margin: 16% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 35%;
+    }
+    #side-nav li {
+        padding: 3px 0px 3px 6px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 30%;
+    }
+}/* Browser at 500% */
+
+@media only screen and (max-width: 390px) {
+    /* Navbar */
+    #img-avatar {
+        width: 32px;
+        margin: 1.4px 0 0 2.5px;
+        box-shadow: 0px 0px 15px black;
+        border: 1px solid rgb(240, 0, 0);
+    }
+    #p-myname {
+        margin: -1px 0 0 4px;
+        font-size: 28%;
+    }
+    #p-career {
+        margin: 0.8px 0 0 7.6px;
+        font-size: 22%;
+    }
+    #side-nav ul {
+        margin: 19% 0% 0% 0%;
+    }
+    #side-nav a {
+        font-size: 28%;
+    }
+    #side-nav li {
+        padding: 2.5px 0px 2.5px 5px;
+    }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 25%;
     }
 }
 
