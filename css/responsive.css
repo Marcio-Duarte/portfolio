@@ -336,4 +336,8 @@
         height: auto;
         min-height: 85vh;
     }
+    /* Resizing of all text in the main the div container */
+    #div-main-container {
+        font-size: 50%;
+    }
 }
