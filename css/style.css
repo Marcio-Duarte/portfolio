@@ -7,6 +7,7 @@ html {
 body {
     background-color: rgb(255, 255, 255);
     margin: 0%;
+    font-family: 'Assistant', sans-serif;
 }
 
 #div-main-container {
@@ -39,7 +40,6 @@ body {
 }
 
 #side-nav p {
-    font-family: 'Amethysta', serif;
     padding: 0%;
 }
 
@@ -97,6 +97,18 @@ body {
     min-height: 85vh;
 }
 
+#ul-aboutme {
+    padding: 6% 15% 10% 15%;
+    font-size: 150%;
+    line-height: 140%;
+}
+
+#ul-aboutme li {
+    padding: 20px 0 10px 0;
+    color: rgb(44, 44, 44);
+    list-style-type: circle;
+}
+
 .div-page ul hr {
     color: rgba(179, 179, 179, 0.3);
     margin: 1% 0% 0% 0%;
@@ -123,17 +135,18 @@ body {
 /* Experience section settings */
 
 #ul-experience p {
-    letter-spacing: 0.8px;
+    letter-spacing: 0.3px;
     line-height: 140%;
 }
 
 .lbl-company {
     float: right;
     color: rgb(40, 126, 255);
+    font-size: 180%;
 }
 
 .lbl-title {
-    color: darkslategray;
+    color: rgb(44, 44, 44);
 }
 
 /* Contact section list */
