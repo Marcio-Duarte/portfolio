@@ -1,42 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: "Assistant", sans-serif;
-  font-size: medium;
-}
-
-.div-container {
-  display: grid;
-  grid-template-columns:2fr repeat(5, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 25px;
-  grid-row-gap: 2px;
-  width: 100%;
-  min-width: 100vh;
-  grid-template-areas:
-    "header header header header header header"
-    "main main main main main main"
-    "main main main main main main"
-    "main main main main main main"
-    "main main main main main main"
-    "footer footer footer footer footer footer";
-}
-
-header {
-  grid-area: header;
-  background-color: darkgray;
-}
-.div-title img {
-}
-
-main {
-  grid-area: main;
-  background-color: rgb(187, 212, 177);
-}
-
-footer {
-  grid-area: footer;
-  background-color: darkgray;
+#sideBar {
+  background-color: grey;
+  min-height: 100vh;
 }
