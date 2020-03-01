@@ -1,0 +1,20 @@
+/* *** Navbar *** */
+nav {
+  div {
+    img {
+      @include setImgSize(64px);
+      border-radius: 50px;
+    }
+    ul:last-of-type {
+      li {
+        img {
+          @include setImgSize(48px);
+        }
+
+        img:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

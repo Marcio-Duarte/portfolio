@@ -1,4 +1,46 @@
-#sideBar {
-  background-color: grey;
-  min-height: 100vh;
+/* *** Variables *** */
+/* Page color scheme */
+/* #e7e7e7*/
+/* Images */
+/* Mixins */
+/* Resize images */
+/* line 1, ../../Workspace/VScode/portfolio/scss/_utilities.scss */
+.view-fullscreen {
+  height: 100vh;
+  width: 100%;
 }
+
+/* .navbar-logo {
+  width: 60px;
+  height: auto;
+} */
+/* *** Navbar *** */
+/* line 4, ../../Workspace/VScode/portfolio/scss/_components.scss */
+nav div img {
+  width: 64px;
+  height: auto;
+  border-radius: 50px;
+}
+
+/* line 10, ../../Workspace/VScode/portfolio/scss/_components.scss */
+nav div ul:last-of-type li img {
+  width: 48px;
+  height: auto;
+}
+
+/* line 14, ../../Workspace/VScode/portfolio/scss/_components.scss */
+nav div ul:last-of-type li img:hover {
+  cursor: pointer;
+}
+
+/* *** Sections *** */
+/* Introduction Section */
+/* line 5, ../../Workspace/VScode/portfolio/scss/_page.scss */
+#intro div {
+  background: linear-gradient(rgba(192, 203, 204, 0.5), rgba(192, 203, 204, 0.5)), url("../images/am_rhein.jpg") no-repeat top center/cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.85;
+}
+
+/*# sourceMappingURL=style.css.map */

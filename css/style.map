@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/_base.scss",
+		"../scss/_utilities.scss",
+		"../scss/_layout.scss",
+		"../scss/_components.scss",
+		"../scss/_page.scss"
+	],
+	"sourcesContent": [
+		"@import \"base\";\r\n@import \"utilities\";\r\n@import \"layout\";\r\n@import \"components\";\r\n@import \"page\";\r\n",
+		"/* *** Variables *** */\r\n\r\n/* Page color scheme */\r\n$dark_grey: #495f62;\r\n$ming: #181a1c;\r\n$levender_grey: #c0cbcc;\r\n\r\n$cor_vermelho: #be0000;\r\n$cor_amarelo: #ffc000;\r\n$amarelo: #ffc000;\r\n$cor_cinza_menus: #ddd /* #e7e7e7*/;\r\n$cor_cinza_sub_menus: #dbdbdb;\r\n$cor_cinza_escuro: #3e3e3e;\r\n$cor_cinza_medio: #bdbdbd;\r\n$cor_cinza_light: #bcbcbc;\r\n$cor_cinza_hover: #f1f1f1;\r\n$cor_preto: #000000;\r\n$cor_azul_claro: #2d91cb;\r\n$cor_roxo: #995eb8;\r\n$cor_twitter: #55acee;\r\n$cor_facebook: #45569c;\r\n$cor_cinza_seccao: #a9a9a9;\r\n\r\n/* Images */\r\n$landscape_img_am_rhein: \"../images/am_rhein.jpg\";\r\n\r\n/* Mixins */\r\n/* Resize images */\r\n@mixin setImgSize($width) {\r\n  width: $width;\r\n  height: auto;\r\n}\r\n",
+		".view-fullscreen {\r\n  height: 100vh;\r\n  width: 100%;\r\n}\r\n\r\n/* .navbar-logo {\r\n  width: 60px;\r\n  height: auto;\r\n} */\r\n",
+		"\r\n",
+		"/* *** Navbar *** */\r\nnav {\r\n  div {\r\n    img {\r\n      @include setImgSize(64px);\r\n      border-radius: 50px;\r\n    }\r\n    ul:last-of-type {\r\n      li {\r\n        img {\r\n          @include setImgSize(48px);\r\n        }\r\n\r\n        img:hover {\r\n          cursor: pointer;\r\n        }\r\n      }\r\n    }\r\n  }\r\n}\r\n",
+		"/* *** Sections *** */\r\n\r\n/* Introduction Section */\r\n#intro {\r\n  div {\r\n    background: linear-gradient(\r\n        rgba(192, 203, 204, 0.5),\r\n        rgba(192, 203, 204, 0.5)\r\n      ),\r\n      url($landscape_img_am_rhein) no-repeat top center/cover;\r\n    position: absolute;\r\n    z-index: -1;\r\n    opacity: 0.85;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "ACAA,uBAAuB;AAEvB,uBAAuB;AAQA,YAAY;AAanC,YAAY;AAGZ,YAAY;AACZ,mBAAmB;;AC3BnB,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACZ;;AAED;;;IAGI;AERJ,oBAAoB;;AACpB,AAEI,GAFD,CACD,GAAG,CACD,GAAG,CAAC;EH0BN,KAAK,EGzBmB,IAAI;EH0B5B,MAAM,EAAE,IAAI;EGzBR,aAAa,EAAE,IAAI;CACpB;;;AALL,AAQQ,GARL,CACD,GAAG,CAKD,EAAE,AAAA,aAAa,CACb,EAAE,CACA,GAAG,CAAC;EHoBV,KAAK,EGnBuB,IAAI;EHoBhC,MAAM,EAAE,IAAI;CGnBL;;;AAVT,AAYQ,GAZL,CACD,GAAG,CAKD,EAAE,AAAA,aAAa,CACb,EAAE,CAKA,GAAG,AAAA,MAAM,CAAC;EACR,MAAM,EAAE,OAAO;CAChB;;ACfT,sBAAsB;AAEtB,0BAA0B;;AAC1B,AACE,MADI,CACJ,GAAG,CAAC;EACF,UAAU,EAAE,mEAGT,EACD,6BAA4B,CAAC,SAAS,CAAC,GAAG,CAAC,YAAY;EACzD,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,IAAI;CACd"
+}

@@ -1,0 +1,15 @@
+/* *** Sections *** */
+
+/* Introduction Section */
+#intro {
+  div {
+    background: linear-gradient(
+        rgba(192, 203, 204, 0.5),
+        rgba(192, 203, 204, 0.5)
+      ),
+      url($landscape_img_am_rhein) no-repeat top center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.85;
+  }
+}
