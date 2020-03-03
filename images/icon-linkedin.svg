@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg74"
+   version="1.1"
+   height="54"
+   width="54"
+   viewBox="0 0 54 54">
+  <metadata
+     id="metadata80">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs78">
+    <linearGradient
+       gradientTransform="translate(-5.0000002,-5)"
+       id="KpzH_ttTMIjq8dhx1zD2pb"
+       x1="32"
+       x2="32"
+       y1="5"
+       y2="59.167"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect">
+      <stop
+         offset="0"
+         stop-color="#1a6dff"
+         id="stop39" />
+      <stop
+         offset="1"
+         stop-color="#c822ff"
+         id="stop41" />
+    </linearGradient>
+  </defs>
+  <linearGradient
+     gradientTransform="translate(-4.976,-2.95)"
+     spreadMethod="reflect"
+     gradientUnits="userSpaceOnUse"
+     y2="49.041"
+     y1="24.858"
+     x2="19"
+     x1="19"
+     id="SUJNhpmDQDF27Y3OfwgfYa">
+    <stop
+       id="stop46"
+       stop-color="#6dc7ff"
+       offset="0" />
+    <stop
+       id="stop48"
+       stop-color="#e6abff"
+       offset="1" />
+  </linearGradient>
+  <path
+     style="fill:url(#SUJNhpmDQDF27Y3OfwgfYa)"
+     id="path51"
+     clip-rule="evenodd"
+     d="m 17.024,45.05 v -22 h -6 v 22 z"
+     fill-rule="evenodd"
+     fill="url(#SUJNhpmDQDF27Y3OfwgfYa)" />
+  <linearGradient
+     gradientTransform="translate(-4.976,-2.95)"
+     spreadMethod="reflect"
+     gradientUnits="userSpaceOnUse"
+     y2="23.341"
+     y1="15.423"
+     x2="19.382"
+     x1="19.382"
+     id="SUJNhpmDQDF27Y3OfwgfYb">
+    <stop
+       id="stop53"
+       stop-color="#6dc7ff"
+       offset="0" />
+    <stop
+       id="stop55"
+       stop-color="#e6abff"
+       offset="1" />
+  </linearGradient>
+  <path
+     style="fill:url(#SUJNhpmDQDF27Y3OfwgfYb)"
+     id="path58"
+     clip-rule="evenodd"
+     d="m 14.382,20.05 c 2.512,0 4.076,-1.474 4.076,-3.554 -0.047,-2.126 -1.564,-3.649 -4.028,-3.649 -2.465,0 -4.076,1.475 -4.076,3.601 0,2.08 1.563,3.602 3.981,3.602 z"
+     fill-rule="evenodd"
+     fill="url(#SUJNhpmDQDF27Y3OfwgfYb)" />
+  <linearGradient
+     gradientTransform="translate(-4.976,-2.95)"
+     spreadMethod="reflect"
+     gradientUnits="userSpaceOnUse"
+     y2="49.525002"
+     y1="14.125"
+     x2="37.386002"
+     x1="37.386002"
+     id="SUJNhpmDQDF27Y3OfwgfYc">
+    <stop
+       id="stop60"
+       stop-color="#6dc7ff"
+       offset="0" />
+    <stop
+       id="stop62"
+       stop-color="#e6abff"
+       offset="1" />
+  </linearGradient>
+  <path
+     style="fill:url(#SUJNhpmDQDF27Y3OfwgfYc)"
+     id="path65"
+     clip-rule="evenodd"
+     d="m 21.97,45.05 h 7.054 V 32.961 c 0,-0.648 0.122,-1.295 0.313,-1.758 0.52,-1.295 1.877,-2.635 3.867,-2.635 2.607,0 3.821,1.988 3.821,4.901 V 45.05 h 6 V 32.638 c 0,-6.657 -3.085,-9.498 -7.826,-9.498 -3.886,0 -5.124,1.91 -6.072,3.91 h -0.103 v -4 H 21.97 c 0.095,2 -0.175,22 -0.175,22 z"
+     fill-rule="evenodd"
+     fill="url(#SUJNhpmDQDF27Y3OfwgfYc)" />
+  <linearGradient
+     spreadMethod="reflect"
+     gradientUnits="userSpaceOnUse"
+     y2="57.5"
+     y1="6.5"
+     x2="32"
+     x1="32"
+     id="SUJNhpmDQDF27Y3OfwgfYd">
+    <stop
+       id="stop67"
+       stop-color="#1a6dff"
+       offset="0" />
+    <stop
+       id="stop69"
+       stop-color="#c822ff"
+       offset="1" />
+  </linearGradient>
+  <path
+     style="fill:url(#KpzH_ttTMIjq8dhx1zD2pb)"
+     fill="url(#KpzH_ttTMIjq8dhx1zD2pb)"
+     d="M 27,53 C 12.663,53 1,41.337 1,27 1,12.663 12.663,1 27,1 41.337,1 53,12.663 53,27 53,41.337 41.337,53 27,53 Z M 27,3.0000004 C 13.767,3.0000004 3,13.767 3,27 3,40.233 13.767,51 27,51 40.233,51 51,40.233 51,27 51,13.767 40.233,3.0000004 27,3.0000004 Z"
+     id="path44" />
+</svg>
