@@ -1,16 +1,22 @@
 /* *** Navbar *** */
 nav {
   div {
-    img {
+    .navbar-logo {
       @include setImgSize(64px);
       border-radius: 50px;
+      /* max-width: 250px; */
+      border: 1px;
+      border-color: red;
+      /* border-color: linear-gradient(#1a6dff, #e6abff); */
+      /* position: relative;
+      background: linear-gradient(#1a6dff, #e6abff);
+      padding: 1.5px; */
     }
     ul:last-of-type {
       li {
         img {
           @include setImgSize(48px);
         }
-
         img:hover {
           cursor: pointer;
         }
