@@ -1,1 +1,59 @@
-.view-fullscreen{height:100vh;width:100%}nav div .navbar-logo{width:64px;height:auto;border-radius:50px;border:1px;border-color:red}nav div ul:last-of-type li img{width:48px;height:auto}nav div ul:last-of-type li img:hover{cursor:pointer}#intro div{background:linear-gradient(rgba(192,203,204,0.5), rgba(192,203,204,0.5)),url("../images/am_rhein.jpg") no-repeat top center/cover;position:absolute;z-index:-1;opacity:0.85}
+/* *** Variables *** */
+/* Page color scheme */
+/* #e7e7e7*/
+/* Images */
+/* Mixins */
+/* Resize images */
+.view-fullscreen {
+  height: 100vh;
+  width: 100%;
+}
+
+/* .navbar-logo {
+  width: 60px;
+  height: auto;
+} */
+/* *** Navbar *** */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+nav div .t {
+  padding: 2px;
+  background: linear-gradient(#1a6dff, #c822ff);
+  border-radius: 50px;
+}
+
+nav div .navbar-logo {
+  width: 64px;
+  height: auto;
+  border-radius: 50px;
+  /* max-width: 250px; */
+  border: 1px;
+  border-color: red;
+  /* border-color: linear-gradient(#1a6dff, #e6abff); */
+  /* position: relative;
+      background: linear-gradient(#1a6dff, #e6abff);
+      padding: 1.5px; */
+}
+
+nav div ul:last-of-type li img {
+  width: 48px;
+  height: auto;
+}
+
+nav div ul:last-of-type li img:hover {
+  cursor: pointer;
+}
+
+/* *** Sections *** */
+/* Introduction Section */
+#intro div {
+  background: linear-gradient(rgba(95, 204, 255, 0.4), rgba(255, 255, 255, 0)), url("..assets/img/am_rhein.jpg") no-repeat top center/cover;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.85;
+}

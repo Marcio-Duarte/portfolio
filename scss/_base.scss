@@ -1,6 +1,8 @@
 /* *** Variables *** */
 
 /* Page color scheme */
+$background-gradient: linear-gradient(#1a6dff, #c822ff);
+
 $dark_grey: #495f62;
 $ming: #181a1c;
 $levender_grey: #c0cbcc;
@@ -22,7 +24,7 @@ $cor_facebook: #45569c;
 $cor_cinza_seccao: #a9a9a9;
 
 /* Images */
-$landscape_img_am_rhein: "../images/am_rhein.jpg";
+$landscape_img_am_rhein: "..assets/img/am_rhein.jpg";
 
 /* Mixins */
 /* Resize images */

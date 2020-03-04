@@ -1,6 +1,22 @@
 /* *** Navbar *** */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.navbar-item {
+}
+
 nav {
   div {
+    .t {
+      padding: 2px;
+      background: $background-gradient;
+      border-radius: 50px;
+    }
     .navbar-logo {
       @include setImgSize(64px);
       border-radius: 50px;
