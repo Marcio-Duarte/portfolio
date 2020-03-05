@@ -3,9 +3,13 @@
 /* Images */
 /* Mixins */
 /* Resize images */
-.view-fullscreen {
+.show-fullscreen {
   min-height: 100vh;
   width: 100%;
+}
+
+.rounded-border {
+  border-radius: 50px;
 }
 
 /* *** Margins *** */
@@ -54,6 +58,14 @@
   padding-right: 1rem;
 }
 
+.pl-1 {
+  padding-left: 0.5rem;
+}
+
+.pl-2 {
+  padding-left: 1rem;
+}
+
 /* List of used predefined screen sizes */
 /* *** Navbar *** */
 .navbar-item {
@@ -69,7 +81,19 @@
   text-decoration: none;
 }
 
-#navbar-toggle {
+#navbar-photo {
+  background: linear-gradient(#1a6dff, #c822ff);
+  padding: 2px;
+  cursor: pointer;
+}
+
+#navbar-photo img {
+  width: 60px;
+  height: auto;
+}
+
+#navbar-toggle-btn {
+  display: none;
   border: 1px solid white;
   background-color: #323232;
   width: 64px;
@@ -78,38 +102,36 @@
 
 .navbar {
   position: fixed;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
   padding: 0.3rem;
   background-color: #151515;
   z-index: 1;
-}
-
-.navbar #navbar-photo {
-  background: linear-gradient(#1a6dff, #c822ff);
-  padding: 2px;
-  border-radius: 50px;
-}
-
-.navbar #navbar-photo img {
-  border-radius: 50px;
-  width: 60px;
-  height: auto;
+  /* box-shadow: -7px 0px 10px #d40000; */
+  /* border-bottom: 1px solid #d40000; */
 }
 
 .navbar ul:first-of-type {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.navbar ul:first-of-type li a {
+  color: #489cf7;
+}
+
+.navbar ul:last-of-type li img {
+  width: 64px;
+  height: auto;
 }
 
 .navbar ul:last-of-type li img:hover {
   cursor: pointer;
-}
-
-.navbar #navbar-toggle {
-  display: none;
 }
 
 @media only screen and (max-width: 992px) {
@@ -126,8 +148,8 @@
   .navbar ul {
     display: none;
   }
-  .navbar #navbar-toggle {
-    display: inline;
+  #navbar-toggle-btn {
+    display: block;
   }
 }
 
@@ -136,6 +158,30 @@
     background: saddlebrown;
   }
 } */
+.sha:hover {
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -144,6 +190,8 @@
 /* *** Sections *** */
 /* Introduction Section */
 #intro div {
-  background: linear-gradient(rgba(0, 122, 179, 0.4), rgba(255, 255, 255, 0)), url("../assets/img/am_rhein.jpg") no-repeat top center/cover;
+  background: #323232;
+  /* background: linear-gradient(rgba(0, 122, 179, 0.4), rgba(255, 255, 255, 0)),
+      url($img_am_rhein) no-repeat top center/cover; */
   position: absolute;
 }

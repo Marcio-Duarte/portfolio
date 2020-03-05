@@ -1,6 +1,10 @@
-.view-fullscreen {
+.show-fullscreen {
   min-height: 100vh;
   width: 100%;
+}
+
+.rounded-border {
+  border-radius: 50px;
 }
 
 /* *** Margins *** */
@@ -38,4 +42,11 @@
 }
 .pr-2 {
   padding-right: 1rem;
+}
+
+.pl-1 {
+  padding-left: 0.5rem;
+}
+.pl-2 {
+  padding-left: 1rem;
 }
