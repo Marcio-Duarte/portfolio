@@ -1,34 +1,26 @@
 /* *** Variables *** */
 
 /* Page color scheme */
+$black: #151515;
+$gray: #323232;
+$blue-dark: #1a6dff;
+$pink-dark: #c822ff;
 $background-gradient: linear-gradient(#1a6dff, #c822ff);
 
 $dark_grey: #495f62;
 $ming: #181a1c;
 $levender_grey: #c0cbcc;
 
-$cor_vermelho: #be0000;
-$cor_amarelo: #ffc000;
-$amarelo: #ffc000;
-$cor_cinza_menus: #ddd /* #e7e7e7*/;
-$cor_cinza_sub_menus: #dbdbdb;
-$cor_cinza_escuro: #3e3e3e;
-$cor_cinza_medio: #bdbdbd;
-$cor_cinza_light: #bcbcbc;
-$cor_cinza_hover: #f1f1f1;
-$cor_preto: #000000;
-$cor_azul_claro: #2d91cb;
-$cor_roxo: #995eb8;
-$cor_twitter: #55acee;
-$cor_facebook: #45569c;
-$cor_cinza_seccao: #a9a9a9;
-
 /* Images */
-$landscape_img_am_rhein: "..assets/img/am_rhein.jpg";
+$img_am_rhein: "../assets/img/am_rhein.jpg";
 
 /* Mixins */
 /* Resize images */
 @mixin setImgSize($width) {
   width: $width;
   height: auto;
+}
+
+@mixin bg-gradient($color1, $color2) {
+  background: linear-gradient($color1, $color2);
 }

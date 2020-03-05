@@ -1,0 +1,149 @@
+/* *** Variables *** */
+/* Page color scheme */
+/* Images */
+/* Mixins */
+/* Resize images */
+.view-fullscreen {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* *** Margins *** */
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 2rem;
+}
+
+.mr-5 {
+  margin-right: 2.5rem;
+}
+
+.mr-6 {
+  margin-right: 3rem;
+}
+
+.mr-7 {
+  margin-right: 3.5rem;
+}
+
+/* *** Paddings *** */
+.pr-1 {
+  padding-right: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 1rem;
+}
+
+/* List of used predefined screen sizes */
+/* *** Navbar *** */
+.navbar-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+}
+
+#navbar-toggle {
+  border: 1px solid white;
+  background-color: #323232;
+  width: 64px;
+  height: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0.3rem;
+  background-color: #151515;
+  z-index: 1;
+}
+
+.navbar #navbar-photo {
+  background: linear-gradient(#1a6dff, #c822ff);
+  padding: 2px;
+  border-radius: 50px;
+}
+
+.navbar #navbar-photo img {
+  border-radius: 50px;
+  width: 60px;
+  height: auto;
+}
+
+.navbar ul:first-of-type {
+  font-size: 1.2rem;
+}
+
+.navbar ul:last-of-type li img:hover {
+  cursor: pointer;
+}
+
+.navbar #navbar-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar ul:first-of-type {
+    font-size: 1rem;
+  }
+  .navbar ul:last-of-type li img {
+    width: 50px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar #navbar-toggle {
+    display: inline;
+  }
+}
+
+/* @media only screen and (max-device-width: setBreakpoint(medium)) {
+  .navbar {
+    background: saddlebrown;
+  }
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* *** Sections *** */
+/* Introduction Section */
+#intro div {
+  background: linear-gradient(rgba(0, 122, 179, 0.4), rgba(255, 255, 255, 0)), url("../assets/img/am_rhein.jpg") no-repeat top center/cover;
+  position: absolute;
+}

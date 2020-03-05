@@ -8,10 +8,8 @@
 /* Introduction Section */
 #intro {
   div {
-    background: linear-gradient(rgba(95, 204, 255, 0.4), rgba(255, 255, 255, 0)),
-      url($landscape_img_am_rhein) no-repeat top center/cover;
+    background: linear-gradient(rgba(0, 122, 179, 0.4), rgba(255, 255, 255, 0)),
+      url($img_am_rhein) no-repeat top center/cover;
     position: absolute;
-    z-index: -1;
-    opacity: 0.85;
   }
 }

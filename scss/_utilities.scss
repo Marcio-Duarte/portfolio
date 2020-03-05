@@ -1,5 +1,5 @@
 .view-fullscreen {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -31,7 +31,11 @@
 .mr-7 {
   margin-right: 3.5rem;
 }
-/* .navbar-logo {
-  width: 60px;
-  height: auto;
-} */
+
+/* *** Paddings *** */
+.pr-1 {
+  padding-right: 0.5rem;
+}
+.pr-2 {
+  padding-right: 1rem;
+}
