@@ -3,8 +3,10 @@
 /* Page color scheme */
 $black: #151515;
 $gray: #323232;
+$gray-light: #b9b9b9;
 $blue-dark: #1a6dff;
-$blue-Lake: #489cf7;
+$blue-lake: #489cf7;
+$blue-light: #9aceff;
 $pink-dark: #c822ff;
 
 $background-gradient: linear-gradient(#1a6dff, #c822ff);
@@ -21,6 +23,11 @@ $img_am_rhein: "../assets/img/am_rhein.jpg";
 @mixin setImgSize($width) {
   width: $width;
   height: auto;
+}
+
+@mixin setSquare($width) {
+  width: $width;
+  height: $width;
 }
 
 @mixin bg-gradient($color1, $color2) {

@@ -1,4 +1,10 @@
-/* *** Navbar *** */
+/* -------------------------------*/
+/*        Navbar Component        */
+/* ------------------------------ */
+
+.active {
+  color: $blue-lake !important;
+}
 
 .navbar-item {
   display: flex;
@@ -20,12 +26,32 @@
     @include setImgSize(60px);
   }
 }
-
 #navbar-toggle-btn {
-  display: none;
-  border: 1px solid white;
+  display: flex;
+  justify-content: center;
   background-color: $gray;
-  @include setImgSize(64px);
+  @include setSquare(45px);
+  cursor: pointer;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 19px;
+    hr {
+      height: 3px;
+      border: none;
+    }
+    hr:nth-child(1) {
+      background-color: $blue-dark;
+    }
+    hr:nth-child(2) {
+      background-color: $blue-light;
+    }
+    hr:nth-child(3) {
+      background-color: $pink-dark;
+    }
+  }
 }
 
 .navbar {
@@ -39,41 +65,43 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.3rem;
-  background-color: $black;
+  background: $black;
   z-index: 1;
-  /* box-shadow: -7px 0px 10px #d40000; */
-  /* border-bottom: 1px solid #d40000; */
-
   ul:first-of-type {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     li {
       a {
-        color: $blue-Lake;
+        color: $gray-light;
+      }
+      a:hover {
+        color: $blue-lake;
       }
     }
   }
-
   ul:last-of-type {
     li {
       img {
-        @include setImgSize(64px);
+        @include setImgSize(34px);
       }
       img:hover {
         cursor: pointer;
       }
     }
   }
+  #navbar-toggle-btn {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: setBreakpoint(large)) {
   .navbar {
     ul:first-of-type {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
     ul:last-of-type {
       li {
         img {
-          @include setImgSize(50px);
+          @include setImgSize(28px);
         }
       }
     }
@@ -82,12 +110,12 @@
 
 @media only screen and (max-width: setBreakpoint(medium)) {
   .navbar {
-    ul {
+    ul:first-of-type {
       display: none;
     }
   }
   #navbar-toggle-btn {
-    display: block;
+    display: flex !important;
   }
 }
 
@@ -96,30 +124,3 @@
     background: saddlebrown;
   }
 } */
-
-.sha:hover {
-  animation: shake 0.8s;
-}
-
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}

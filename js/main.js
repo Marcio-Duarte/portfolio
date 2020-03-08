@@ -1,15 +1,8 @@
+$(document).ready(function () {
 
-
-/* $(document).ready(function () {
-
-    $("img").click(function () {
-        $("img").effect("shake", { times: 4 }, 1000);
+    $(".navbar ul:first-of-type li a").click(function () {
+        $(".navbar ul:first-of-type li a").removeClass('active');
+        $(this).toggleClass('active');
     });
 
-}); */
-
-
-/* $('img').click(function () {
-    $(this).effect("shake");
-    alert("22222");
-}); */
+});

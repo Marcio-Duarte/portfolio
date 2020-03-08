@@ -3,6 +3,15 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "relative";
+  src: url("../assets/fonts/relative-10pitch.woff2");
+}
+
+body {
+  font-family: "relative";
+}
+
 /* *** Sections *** */
 
 /* Introduction Section */

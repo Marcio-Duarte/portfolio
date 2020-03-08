@@ -1,0 +1,39 @@
+/* To shake elements */
+.shakeIt:hover {
+  animation: shake 0.8s;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 1px, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 2px, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 2px, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 1px, 0);
+  }
+}
+/* navbar-btn-toggled */
+#navbar-toggle-btn:hover {
+  hr:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  hr:nth-child(2) {
+    display: none;
+  }
+  hr:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
