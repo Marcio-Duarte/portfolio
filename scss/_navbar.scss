@@ -6,6 +6,13 @@
   color: $blue-lake !important;
 }
 
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
+}
+
 .navbar-item {
   display: flex;
   flex-direction: row;

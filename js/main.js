@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    /* *** Navbar elements and actions *** */
+    /* Set active menu */
     $(".navbar ul:first-of-type li a").click(function () {
         $(".navbar ul:first-of-type li a").removeClass('active-link');
         $(this).toggleClass('active-link');
@@ -15,7 +17,7 @@ $(document).ready(function () {
             $(this).removeClass('navbar-toggle-active');
             setTimeout(function () {
                 $('#navbar-toggle-btn').removeClass('navbar-toggle-inactive');
-            }, 1000);
+            }, 300);
         }
     });
 

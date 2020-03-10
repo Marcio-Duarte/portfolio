@@ -96,19 +96,19 @@
 /* ------------------------------------ */
 .navbar-toggle-active hr:nth-child(1) {
   animation-name: turnBlueHR;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards;
 }
 
 .navbar-toggle-active hr:nth-child(2) {
   animation-name: turnLightBlueHR;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards;
 }
 
 .navbar-toggle-active hr:nth-child(3) {
   animation-name: turnPinkHR;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards;
 }
 
@@ -134,17 +134,17 @@
 /* *** Button inactive state *** */
 .navbar-toggle-inactive hr:nth-child(1) {
   animation-name: turnBlueHRback;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 
 .navbar-toggle-inactive hr:nth-child(2) {
   animation-name: turnLightBlueHRback;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 
 .navbar-toggle-inactive hr:nth-child(3) {
   animation-name: turnPinkHRback;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 
 @keyframes turnBlueHRback {
@@ -198,6 +198,13 @@
 /* ------------------------------ */
 .active-link {
   color: #489cf7 !important;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 60px;
 }
 
 .navbar-item {
