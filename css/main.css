@@ -96,19 +96,19 @@
 /* ------------------------------------ */
 .navbar-toggle-active hr:nth-child(1) {
   animation-name: turnBlueHR;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
 .navbar-toggle-active hr:nth-child(2) {
   animation-name: turnLightBlueHR;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
 .navbar-toggle-active hr:nth-child(3) {
   animation-name: turnPinkHR;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -134,17 +134,17 @@
 /* *** Button inactive state *** */
 .navbar-toggle-inactive hr:nth-child(1) {
   animation-name: turnBlueHRback;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 
 .navbar-toggle-inactive hr:nth-child(2) {
   animation-name: turnLightBlueHRback;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 
 .navbar-toggle-inactive hr:nth-child(3) {
   animation-name: turnPinkHRback;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 
 @keyframes turnBlueHRback {
@@ -204,7 +204,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 60px;
+  height: 100%;
 }
 
 .navbar-item {
@@ -317,7 +317,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar ul {
+  .navbar .navbar-container:nth-child(2) {
     display: none;
   }
   #navbar-toggle-btn {
@@ -325,10 +325,58 @@
   }
 }
 
-/* @media only screen and (max-device-width: setBreakpoint(medium)) {
-  .navbar {
-    background: saddlebrown;
+@media only screen and (min-width: 768px) {
+  .sidenav {
+    display: none;
   }
+}
+
+/* -------------------------------*/
+/*      SideNavbar Component      */
+/* ------------------------------ */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 75px;
+  left: 0;
+  background-color: #151515;
+  overflow-x: hidden;
+  transition: 0.6s;
+}
+
+.side-navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 12px;
+}
+
+.side-navbar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 180px;
+  list-style-type: none;
+}
+
+.side-navbar-item a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
 } */
 * {
   padding: 0;

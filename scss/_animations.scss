@@ -31,17 +31,17 @@
 .navbar-toggle-active {
   hr:nth-child(1) {
     animation-name: turnBlueHR;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
   }
   hr:nth-child(2) {
     animation-name: turnLightBlueHR;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
   }
   hr:nth-child(3) {
     animation-name: turnPinkHR;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
   }
 }
@@ -67,15 +67,15 @@
 .navbar-toggle-inactive {
   hr:nth-child(1) {
     animation-name: turnBlueHRback;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
   }
   hr:nth-child(2) {
     animation-name: turnLightBlueHRback;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
   }
   hr:nth-child(3) {
     animation-name: turnPinkHRback;
-    animation-duration: 0.3s;
+    animation-duration: 0.5s;
   }
 }
 
