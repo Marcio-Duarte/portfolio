@@ -1,7 +1,7 @@
 $(document).ready(function () {
     /* *** Navbar and side navbar elements and actions *** */
 
-    /* Copy contents to the side navbar from the main navbar */
+    /* Copy contents from the main navbar to the side navbar */
     let navMenu = document.querySelectorAll('.navbar-container')[0].cloneNode(true);
     let sideNavbar = document.getElementById("side-navbar");
     navMenu.classList.remove("navbar-container");
@@ -10,12 +10,10 @@ $(document).ready(function () {
     navMenu.childNodes[1].classList.add("side-navbar-item");
     sideNavbar.appendChild(navMenu);
 
-
-    /* Set active menu in both bars at the same time*/
-    $(".navbar ul:first-of-type li a, .sidenav ul:first-of-type li a").click(function (e) {
-        $(".navbar ul:first-of-type li a , .sidenav ul:first-of-type li a").removeClass('active-link');
-        $(".navbar ul:first-of-type li a[name=" + "'" + e.currentTarget.name + "'" + "]").addClass('active-link');
-        $(".sidenav ul:first-of-type li a[name=" + "'" + e.currentTarget.name + "'" + "]").addClass('active-link');
+    /* To set the class active menu in both nav bars at the same time*/
+    $("nav ul:first-of-type li a").click(function () {
+        $("nav ul:first-of-type li a").removeClass('active-link');
+        $(`nav ul:first-of-type li a[name=${this.name}]`).addClass('active-link');
     });
 
     /* Navbar toggle button effect */
