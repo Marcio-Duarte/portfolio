@@ -21,7 +21,7 @@ $img_am_rhein: "../assets/img/am_rhein.jpg";
 /* Mixins */
 /* Resize images */
 @mixin setImgSize($width) {
-  width: $width;
+  max-width: $width;
   height: auto;
 }
 
