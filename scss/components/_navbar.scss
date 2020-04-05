@@ -19,9 +19,16 @@
   justify-content: space-between;
   width: 50%;
   list-style-type: none;
-  a {
-    color: white;
-    text-decoration: none;
+  li {
+    a {
+      color: $gray-light;
+      text-decoration: none;
+      transition: 0.3s;
+      opacity: 0.9;
+    }
+    a:hover {
+      color: $blue-light;
+    }
   }
 }
 
@@ -55,14 +62,6 @@
     ul {
       width: 100%;
       font-size: 1.1rem;
-      li {
-        a {
-          color: $gray-light;
-        }
-        a:hover {
-          color: $blue-lake;
-        }
-      }
     }
   }
   ul:last-of-type {
@@ -99,14 +98,6 @@
   .navbar-container {
     align-items: center;
     font-size: 0.9rem;
-    li {
-      a {
-        color: $gray-light;
-      }
-      a:hover {
-        color: $blue-lake;
-      }
-    }
   }
 }
 

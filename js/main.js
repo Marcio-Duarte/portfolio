@@ -12,7 +12,7 @@ $(document).ready(function () {
             height: '100%'
         }); */
 
-        $(modal).children().click(function () {
+        $(modal).click(function () {
             modal.css({ "display": "none" });
             /*  $('body').css({
                  overflow: 'scroll',
@@ -115,9 +115,14 @@ $(document).ready(function () {
     sideNavbar.appendChild(document.querySelectorAll('.navbar-container')[0].cloneNode(true));
 
     /* To set the class active menu in both nav bars at the same time*/
-    $("nav ul:first-of-type li a").click(function () {
+    /* $("nav ul:first-of-type li a").click(function () {
         $("nav ul:first-of-type li a").removeClass('active-link');
         $(`nav ul:first-of-type li a[name=${this.name}]`).addClass('active-link');
+    }); */
+
+    $('.navbar-item li a').click(function () {
+        $('.navbar-item li a').removeClass('active-link');
+        $(`.navbar-item li a[name=${this.name}]`).addClass('active-link');
     });
 
     /* Navbar toggle button effect */
